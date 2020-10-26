@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DestinationIconView" customModule="redtaxicustomer" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="LRO-2v-Zmy" id="bDm-6a-X5v"/>
+                <outlet property="contentView" destination="e7v-T3-xRe" id="fUm-ob-fGN"/>
+                <outlet property="durationLabel" destination="rHg-Im-10K" id="iLE-l9-oT9"/>
+                <outlet property="durationView" destination="VAb-Aa-7fc" id="1bP-9l-Dlu"/>
+                <outlet property="titleLabel" destination="Vae-SL-WvB" id="pI2-M9-Zne"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="e7v-T3-xRe">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="29"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 8" translatesAutoresizingMaskIntoConstraints="NO" id="0d1-d4-ky6">
+                    <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="29" id="6cY-bU-d3l"/>
+                        <constraint firstAttribute="height" constant="29" id="wCE-uM-IQp"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRO-2v-Zmy">
+                    <rect key="frame" x="29" y="2" width="378" height="25"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VAb-Aa-7fc">
+                            <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHg-Im-10K">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Tz6-AL-vdh"/>
+                                        <constraint firstAttribute="width" constant="25" id="qcG-rJ-bR2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="8"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.2666666667" green="0.2666666667" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="1n9-w6-al9"/>
+                                <constraint firstItem="rHg-Im-10K" firstAttribute="leading" secondItem="VAb-Aa-7fc" secondAttribute="leading" id="ATr-7g-42x"/>
+                                <constraint firstAttribute="height" constant="25" id="Kec-Sc-M4Q"/>
+                                <constraint firstItem="rHg-Im-10K" firstAttribute="top" secondItem="VAb-Aa-7fc" secondAttribute="top" id="uc5-vd-U4l"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vae-SL-WvB">
+                            <rect key="frame" x="32" y="0.0" width="0.0" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="r2M-Xc-U27"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="9"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Vae-SL-WvB" firstAttribute="leading" secondItem="VAb-Aa-7fc" secondAttribute="trailing" constant="7" id="63E-8p-1Z1"/>
+                        <constraint firstItem="VAb-Aa-7fc" firstAttribute="top" secondItem="LRO-2v-Zmy" secondAttribute="top" id="Alk-eR-6Zv"/>
+                        <constraint firstItem="VAb-Aa-7fc" firstAttribute="leading" secondItem="LRO-2v-Zmy" secondAttribute="leading" id="CG2-1W-XJk"/>
+                        <constraint firstAttribute="height" constant="25" id="Lhg-pi-PvE"/>
+                        <constraint firstItem="Vae-SL-WvB" firstAttribute="top" secondItem="LRO-2v-Zmy" secondAttribute="top" id="Mv5-H4-thA"/>
+                        <constraint firstAttribute="bottom" secondItem="Vae-SL-WvB" secondAttribute="bottom" id="WFB-49-fPI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0d1-d4-ky6" firstAttribute="leading" secondItem="UP7-LW-BYA" secondAttribute="leading" id="2wn-se-epg"/>
+                <constraint firstItem="UP7-LW-BYA" firstAttribute="trailing" secondItem="LRO-2v-Zmy" secondAttribute="trailing" constant="7" id="Wq4-op-x1D"/>
+                <constraint firstItem="LRO-2v-Zmy" firstAttribute="leading" secondItem="0d1-d4-ky6" secondAttribute="trailing" id="ldj-PR-zWW"/>
+                <constraint firstAttribute="top" secondItem="0d1-d4-ky6" secondAttribute="top" id="toq-Wy-taI"/>
+                <constraint firstItem="LRO-2v-Zmy" firstAttribute="centerY" secondItem="e7v-T3-xRe" secondAttribute="centerY" id="w47-n3-efb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="UP7-LW-BYA"/>
+            <point key="canvasLocation" x="131.8840579710145" y="220.64732142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Group 8" width="48" height="48"/>
+    </resources>
+</document>

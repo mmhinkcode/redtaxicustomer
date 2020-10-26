@@ -1,0 +1,6 @@
+framework module Pods_redtaxicustomer {
+  umbrella header "Pods-redtaxicustomer-umbrella.h"
+
+  export *
+  module * { export * }
+}

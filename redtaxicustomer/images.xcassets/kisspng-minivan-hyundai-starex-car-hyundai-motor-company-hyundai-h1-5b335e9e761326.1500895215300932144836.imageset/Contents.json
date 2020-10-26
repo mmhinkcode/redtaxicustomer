@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-minivan-hyundai-starex-car-hyundai-motor-company-hyundai-h1-5b335e9e761326.1500895215300932144836.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-minivan-hyundai-starex-car-hyundai-motor-company-hyundai-h1-5b335e9e761326.1500895215300932144836@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "kisspng-minivan-hyundai-starex-car-hyundai-motor-company-hyundai-h1-5b335e9e761326.1500895215300932144836@3x.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
